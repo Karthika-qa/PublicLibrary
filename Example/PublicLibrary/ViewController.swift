@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         let frameworkBundle = Bundle(for: Logger.self)
         let path = frameworkBundle.path(forResource: "Resources", ofType: "bundle")
         let resourceBundle = Bundle(url: URL(fileURLWithPath: path!))
-        let image = UIImage(named: "image.png", in: resourceBundle,compatibleWith:nil)
+        let image = UIImage(named: "image.jpg", in: resourceBundle,compatibleWith:nil)
         print(image)
         
     }
